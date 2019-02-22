@@ -4,7 +4,7 @@ int fpb(int x, int y)
 {
 	if (y != 0)
 		return fpb(y, x%y);
-    else 
+	else 
 		return x;
 }
 
