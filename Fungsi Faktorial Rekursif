@@ -1,0 +1,23 @@
+#include <stdio.h>
+#define N 100
+ 
+long double faktorial(unsigned int nilai){
+    long double total = 1; 
+    int i;
+    for(i=1; i<=nilai; i++){
+       
+      total = total*i;
+    }
+    return total;
+}
+ 
+ 
+ 
+int main(){
+    unsigned int nilai;
+    scanf("%d", &nilai);
+    printf("%.0Lf\n", faktorial(nilai));
+    return 0;
+     
+return 0;
+}
